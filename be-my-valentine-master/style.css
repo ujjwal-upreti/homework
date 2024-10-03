@@ -1,0 +1,70 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  height: 100%;
+}
+
+.mainHeader {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 2.5rem;
+  height: 7.5rem;
+  line-height: 7.5rem;
+}
+
+.mainSection {
+  margin: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+.contentArticle {
+  margin-bottom: 5rem;
+}
+
+h4 {
+  color: #e63946;
+  text-align: right;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+img {
+  width: 100%;
+  border-top: 0.625rem solid #e63946;
+  padding-bottom: 5rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+article p:first-of-type {
+  border-left: 0.625rem solid #ccc;
+  padding-left: 1rem;
+}
